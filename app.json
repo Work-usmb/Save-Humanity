@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "Reign2",
+    "name": "Save_humanity",
     "slug": "Reign2",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/earth.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icon-earth.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -22,12 +22,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon-earth.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.ikanatsu.Save_humanity"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/images/earth.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9a6b7396-3b42-492f-b1e5-0d78bdf552b2"
+      }
     }
   }
 }
